@@ -1,0 +1,1 @@
+CREATE SERVICE [czAsyncExecService]  ON QUEUE [dbo].[czAsyncExecQueue] ([DEFAULT])
