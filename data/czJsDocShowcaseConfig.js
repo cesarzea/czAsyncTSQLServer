@@ -94,7 +94,7 @@ czJsDocShowcase.app.mainConfig = {
             type: 'markdown',
             name: 'Use cases solved',
             file: '../data/docs/2. Use Cases in psuedocode.md',
-            iconCls: 'far fa-question-circle',
+            iconCls:"fas fa-briefcase",
             levelsToShowInTree: 2
         },
 
@@ -106,7 +106,8 @@ czJsDocShowcase.app.mainConfig = {
         {
             type: 'namespace',
             name: 'Documentation',
-            iconCls: 'far fa-question-circle'
+            iconCls: 'fas fa-book' ,
+            expanded: false
         },
 
         {
